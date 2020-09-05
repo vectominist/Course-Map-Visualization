@@ -1,0 +1,73 @@
+{
+    "nodes": [
+      {
+        "id": "n0",
+        "label": "Ch1.1",
+        "x": 0,
+        "y": 0,
+        "size": 3,
+        "color": "#0012ff",
+        "url": "https://google.com",
+        "attributes": {
+          "acategory": "jizz"
+        }
+      },
+      {
+        "id": "n1",
+        "label": "Ch1.2",
+        "x": 0,
+        "y": 1,
+        "size": 3,
+        "url": "https://google.com",
+        "attributes": {
+          "acategory": "jizz"
+        }
+      },
+      {
+        "id": "n2",
+        "label": "Ch1.3",
+        "x": -1,
+        "y": 2,
+        "size": 3,
+        "url": "https://google.com",
+        "attributes": {
+          "acategory": "jizz"
+        }
+      },
+      {
+        "id": "n3",
+        "label": "Ch1.4",
+        "x": 1,
+        "y": 2,
+        "size": 3,
+        "url": "https://google.com",
+        "attributes": {
+          "acategory": "jizzy"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "e0",
+        "source": "n0",
+        "target": "n1",
+        "type": ["arrow"],
+        "size": 5
+      },
+      {
+        "id": "e1",
+        "source": "n1",
+        "target": "n2",
+        "type": ["arrow"],
+        "size": 5
+      },
+      {
+        "id": "e2",
+        "source": "n1",
+        "target": "n3",
+        "type": ["arrow"],
+        "size": 5
+      }
+    ]
+  }
+  
