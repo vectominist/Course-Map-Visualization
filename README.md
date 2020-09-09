@@ -1,4 +1,6 @@
 # Course-Map-Visualization
+[![Python version](https://img.shields.io/badge/python-%3E=_3.6-green.svg?style=flat-square)](_blank)
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)
 A simple website for course map visualization 🎓.
 
 ## Features
@@ -12,7 +14,7 @@ A simple website for course map visualization 🎓.
 ## Requirements
 
 * Install Web browser ([Firefox](https://www.mozilla.org/en-US/firefox/) is recommended).
-* Install [Python3](https://www.python.org/).
+* Install [Python](https://www.python.org/) (>= 3.6).
 * Install required python packages for generating and drawing the course map structure:
   ```
   matplotlib
@@ -30,9 +32,9 @@ git clone https://github.com/vectominist/Course-Map-Visualization.git
 
 ### Step 2: Open the example with your Web browser
 
-* **Method 1**
+* **Method 1:**
   Open `index.html` with Firefox.
-* **Method 2**
+* **Method 2:**
   Host from [VSCode](https://code.visualstudio.com/) with [Live Server](https://github.com/ritwickdey/vscode-live-server) and open the website with any Web browser.
 
 ### Step 3: Generate your own course map
@@ -41,20 +43,21 @@ git clone https://github.com/vectominist/Course-Map-Visualization.git
 
    ```
    {
+     "category": [
+       <category 1>,
+       ...
+     ]
      "nodes": [
        {
          "id": <an integer start from zero>,
          "label": "<name of the course module>",
-         "chapter": "<chaper name>",
+         "category": "<category name>",
          "url": "<link to the course module>"
        },
        ...
      ],
      "edges": [
-       {
-         "source": <index of the source node>,
-         "target": <index of the target node>
-       },
+       [<index of the source node>, <index of the target node>],
        ...
      ]
    }
@@ -64,9 +67,16 @@ git clone https://github.com/vectominist/Course-Map-Visualization.git
    ```
    python3 generate_json_file.py data/course.json data/data.json
    ```
+   **Note:** We assume the course map is a [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph) and thus can be viewed as a *tree-like* structure that can be plotted with the [Reingold-Tilford algorithm](https://reingold.co/tidier-drawings.pdf).
 
-<!-- ## Example -->
+### Step 4: Set colors for different categories (optional)
 
+The color of the nodes and edges are determined by their categoties. The default color for each category is in `color_selection.py`. You may want to customize your colors by modifying:
+1. `COLORS`: the color dictionary (default: `matplotlib.colors.CSS4_COLORS`)
+2. `DEFAULT_COLORS`: the color list for each category, shown as the following image
+<p align="left">
+  <img src="images/default_colors.png" width="500">
+</p>
 
 ## Author
 [Heng-Jui Chang](https://vectominist.github.io/)  
