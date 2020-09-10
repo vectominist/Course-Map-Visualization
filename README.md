@@ -1,14 +1,15 @@
 # Course-Map-Visualization
 [![Python version](https://img.shields.io/badge/python-%3E=_3.6-green.svg?style=flat-square)](_blank)
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)
-A simple website for course map visualization 🎓.
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)  
+A simple website for visualizing course maps 🎓.
+
 
 ## Features
 
 * Easy and fast to generate and deploy a course map website by yourself 🚀.
 * Visualizing via an interactive website powered by [Sigma.js](http://sigmajs.org/).
 * Supports filtering by chapters or sections 📖.
-* Flexible and easy to modify 🛠.
+* Flexible and easy to customize 🛠.
 * Demo website: [link](https://google.com)
 
 ## Requirements
@@ -44,7 +45,7 @@ git clone https://github.com/vectominist/Course-Map-Visualization.git
    ```
    {
      "category": [
-       <category 1>,
+       "<category 1>",
        ...
      ]
      "nodes": [
@@ -73,10 +74,16 @@ git clone https://github.com/vectominist/Course-Map-Visualization.git
 
 The color of the nodes and edges are determined by their categoties. The default color for each category is in `color_selection.py`. You may want to customize your colors by modifying:
 1. `COLORS`: the color dictionary (default: `matplotlib.colors.CSS4_COLORS`)
-2. `DEFAULT_COLORS`: the color list for each category, shown as the following image
+2. `DEFAULT_COLORS`: the default color list for each category, which is shown in the following image
 <p align="left">
   <img src="images/default_colors.png" width="500">
 </p>
+
+Another recommended method for assigning colors to categories is to use the [Colormaps in Matplotlib](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html). The default colormap is `rainbow`, which is shown in the following image
+<p align="left">
+  <img src="images/rainbow.png" width="500">
+</p>
+
 
 ## Author
 [Heng-Jui Chang](https://vectominist.github.io/)  
