@@ -3,7 +3,7 @@ import json
 import networkx as nx
 import igraph as ig
 import matplotlib.pyplot as plt
-from color_selection import COLORS, DEFAULT_COLORS
+from color_selection import get_color
 
 def read_original_file(filename):
     with open(filename, 'r') as fp:
@@ -36,7 +36,6 @@ def build_graph(n, edges):
             # rootlevels.append(len(roots) - 1)
             rootlevels.append(0)
     print(roots)
-    # roots = rootlevels = None
     del G
 
     # Step 2: calculate the layout by the Reingold-Tilford alogrithm
@@ -56,10 +55,10 @@ def build_graph(n, edges):
     # =============
     return coords
 
-def process_output_data(category, nodes, edges, coords):
+def process_output_data(category, nodes, edges, coords, color_type='default', cmap='rainbow'):
     colors = {}
     for i, c in enumerate(category):
-        colors[c] = DEFAULT_COLORS[i]
+        colors[c] = get_color(i / len(category), c_type=color_type, cmap_type=cmap)
     
     new_nodes = []
     for i, n in enumerate(nodes):
@@ -69,7 +68,7 @@ def process_output_data(category, nodes, edges, coords):
         tmp_node['x'] = coords[i][0]
         tmp_node['y'] = coords[i][1]
         tmp_node['size'] = 3
-        tmp_node['color'] = COLORS[colors[n['category']]]
+        tmp_node['color'] = colors[n['category']]
         tmp_node['url'] = n['url']
         tmp_node['attributes'] = { 'acategory': n['category']}
         new_nodes.append(tmp_node)
@@ -88,7 +87,7 @@ def process_output_data(category, nodes, edges, coords):
 
 def write_to_json(data_dict, filename):
     json_dict = json.dumps(data_dict)
-    with open(filename, 'w+') as fp:
+    with open(filename, 'w') as fp:
         json.dump(data_dict, fp, indent=2)
 
 if __name__ == '__main__':
@@ -97,9 +96,11 @@ if __name__ == '__main__':
         exit()
     input_file = sys.argv[1]
     output_file = sys.argv[2]
+    color_type = 'cmap'
+    color_map  = 'rainbow'
 
     data_dict = read_original_file(input_file)
     category, nodes, edges, num_nodes = process_input_data(data_dict)
     coords = build_graph(num_nodes, edges)
-    data_dict = process_output_data(category, nodes, edges, coords)
+    data_dict = process_output_data(category, nodes, edges, coords, color_type, cmap=color_map)
     write_to_json(data_dict, output_file)
