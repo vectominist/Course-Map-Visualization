@@ -21,6 +21,8 @@ DEFAULT_COLORS = [
 ]
 
 def get_color(ratio, c_type='default', cmap_type='rainbow'):
+    # Get color from either DEFAULT_COLORS or Colormap
+    # ratio: float, ranging from 0 to 1
     if c_type == 'default':
         return COLORS[DEFAULT_COLORS[int(np.around(ratio * len(DEFAULT_COLORS)))]]
     elif c_type == 'cmap':
@@ -55,5 +57,6 @@ def show_color_map(cmap_type):
     plt.show()
 
 if __name__ == '__main__':
+    # For debugging: plot the colors used for the categories
     show_colors(DEFAULT_COLORS)
     show_color_map('rainbow')
