@@ -67,10 +67,10 @@
       }
 
       #graph-container {
-        top: 20;
-        bottom: 20;
-        left: 20;
-        right: 220;
+        top: 10;
+        bottom: 10;
+        left: 10;
+        right: 50;
         position: absolute;
       }
 
@@ -79,7 +79,7 @@
         /*bottom: 10px;*/
         right: 10px;
         position: absolute;
-        width: 230px;
+        width: 260px;
         background-color: rgb(249, 247, 237);
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
       }
@@ -137,8 +137,12 @@
         </div> -->
       <div>
         <h3>Prof. <a href="http://speech.ee.ntu.edu.tw/~tlkagk/index.html">Hung-yi Lee</a></h3>
-        <h3>Chapter Selection Filter</h3>
+        <h3>Category Filter</h3>
         <select id="node-category">
+          <option value="" selected>All</option>
+        </select>
+        <h3>Key Filter</h3>
+        <select id="node-key">
           <option value="" selected>All</option>
         </select>
       </div>
@@ -228,15 +232,21 @@
       }
     };
 
-    function updatePane(graph, filter) {
+    function updatePane(graph, filter_category, filter_key) {
       // get max degree
       var maxDegree = 0,
-        categories = {};
+        categories = {},
+        keys = {},
+        key_tmp = [];
 
       // read nodes
       graph.nodes().forEach(function (n) {
-        // maxDegree = Math.max(maxDegree, graph.degree(n.id));
         categories[n.attributes.acategory] = true;
+      });
+      graph.nodes().forEach(function (n) {
+        n.attributes.key.forEach(function (k) {
+          keys[k] = true;
+        });
       });
 
       // node category
@@ -247,30 +257,44 @@
         nodecategoryElt.add(optionElt);
       });
 
+      // node keys
+      Object.keys(keys).forEach(function (c) {
+        key_tmp.push(c);
+      });
+      key_tmp.sort(function (a, b) {
+        return a.toUpperCase() > b.toUpperCase();
+      });
+      var nodekeyElt = _.$('node-key');
+      key_tmp.forEach(function (c) {
+        var optionElt = document.createElement("option");
+        optionElt.text = c;
+        nodekeyElt.add(optionElt);
+      });
+
       // reset button
       _.$('reset-btn').addEventListener("click", function (e) {
         _.$('node-category').selectedIndex = 0;
-        filter.undo().apply();
-        // _.$('dump').textContent = '';
-        // _.hide('#dump');
+        _.$('node-key').selectedIndex = 0;
+        filter_category.undo().apply();
+        filter_key.undo().apply();
       });
-
     }
 
     sigma.parsers.json('data/data.json', {
       container: 'graph-container',
       settings: {
         defaultNodeColor: '#ec5148',
-        defaultLabelSize: 20,
-        minArrowSize: 8,
+        defaultLabelSize: 16,
+        maxNodeSize: 7,
+        minArrowSize: 7,
         minEdgeSize: 1,
-        maxEdgeSize: 4,
+        maxEdgeSize: 2.5,
         sideMargin: 1.2,
         touchEnabled: true,
         doubleClickEnabled: false,
-        zoomMin: 0.4,
-        zoomMax: 2,
-        enableEdgeHovering: true
+        zoomMin: 0.2,
+        zoomMax: 1.6,
+        enableEdgeHovering: false
       },
       renderer: {
         container: document.getElementById('graph-container'),
@@ -284,21 +308,36 @@
           win.focus();
         });
         // Initialize the Filter API
-        filter = new sigma.plugins.filter(s);
+        categoryFilter = new sigma.plugins.filter(s);
+        keyFilter = new sigma.plugins.filter(s);
 
-        updatePane(s.graph, filter);
+        updatePane(s.graph, categoryFilter, keyFilter);
 
         function applyCategoryFilter(e) {
           var c = e.target[e.target.selectedIndex].value;
-          filter
+          categoryFilter
             .undo('node-category')
             .nodesBy(function (n) {
               return !c.length || n.attributes.acategory === c;
             }, 'node-category')
             .apply();
         }
+        function applyKeyFilter(e) {
+          var c = e.target[e.target.selectedIndex].value;
+          keyFilter
+            .undo('node-key')
+            .nodesBy(function (n) {
+              var find_key = false;
+              n.attributes.key.forEach(function (k) {
+                find_key = find_key || (k === c);
+              });
+              return !c.length || find_key;
+            }, 'node-key')
+            .apply();
+        }
 
         _.$('node-category').addEventListener("change", applyCategoryFilter);
+        _.$('node-key').addEventListener("change", applyKeyFilter);
       });
   </script>
 </body>

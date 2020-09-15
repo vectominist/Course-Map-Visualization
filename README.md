@@ -1,7 +1,7 @@
 # Course-Map-Visualization
 [![Python version](https://img.shields.io/badge/python-%3E=_3.6-green.svg?style=flat-square)](_blank)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](./LICENSE)  
-A simple website for visualizing course maps 🎓.
+A simple website for visualizing course maps 🎓🗺.
 
 
 ## Features
@@ -10,7 +10,7 @@ A simple website for visualizing course maps 🎓.
 * Visualizing via an interactive website powered by [Sigma.js](http://sigmajs.org/).
 * Supports filtering by chapters or sections 📖.
 * Flexible and easy to customize 🛠.
-* Demo website: [link](https://google.com)
+* Demo website: [link](https://google.com) (not lauched yet)
 
 ## Requirements
 
@@ -53,6 +53,7 @@ git clone https://github.com/vectominist/Course-Map-Visualization.git
          "id": <an integer start from zero>,
          "label": "<name of the course module>",
          "category": "<category name>",
+         "key": [list of keys (can be empty)],
          "url": "<link to the course module>"
        },
        ...
