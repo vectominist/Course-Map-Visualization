@@ -28,6 +28,8 @@ def build_graph(n, edges, baseIdx=0):
     # n:     number of nodes
     # edges: 1D list of edges
 
+    edges = sorted(edges, key=lambda x: x[0])
+
     G = nx.DiGraph(edges)
     G.add_edge(0, 1)
     if not nx.is_directed_acyclic_graph(G):
@@ -52,7 +54,7 @@ def build_graph(n, edges, baseIdx=0):
     g.add_edges(edges_baseIdx)
     layout = g.layout_reingold_tilford(
         mode='OUT', root=roots, rootlevel=rootlevels)
-    coords = [(l[0], l[1] * 1.5) for l in layout]
+    coords = [(l[0], l[1]) for l in layout]
 
     # === Debug ===
     # G = nx.DiGraph(edges)
