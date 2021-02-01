@@ -38,14 +38,13 @@ def build_graph(n, edges, baseIdx=0):
 
     # Step 1: find roots
     roots = []
-    rootlevels = []
     for i in range(n):
         ancestors = nx.ancestors(G, i)
         if len(ancestors) == 0:
             roots.append(i)
-            rootlevels.append(0)
     print('Roots : {}'.format(roots))
     del G
+    roots = []
 
     # Step 2: calculate the layout by the Reingold-Tilford alogrithm
     g = ig.Graph(directed=True)
@@ -53,7 +52,7 @@ def build_graph(n, edges, baseIdx=0):
     edges_baseIdx = [(s - baseIdx, t - baseIdx) for (s, t) in edges]
     g.add_edges(edges_baseIdx)
     layout = g.layout_reingold_tilford(
-        mode='OUT', root=roots, rootlevel=rootlevels)
+        mode='OUT', root=roots)
     coords = [(l[0], l[1]) for l in layout]
 
     # === Debug ===
@@ -64,6 +63,7 @@ def build_graph(n, edges, baseIdx=0):
     # nx.draw(G, coords_new)
     # plt.show()
     # =============
+
     return coords
 
 
@@ -121,7 +121,7 @@ if __name__ == '__main__':
     input_file = sys.argv[1]  # data/course.json
     output_file = sys.argv[2]  # data/data.json
     color_type = 'cmap'      # colors for different categories: 'default'/'cmap'
-    color_map = 'rainbow'   # if color_type = 'cmap' then assign which colormap to use
+    color_map = 'autumn'   # if color_type = 'cmap' then assign which colormap to use
 
     data_dict = read_original_file(input_file)
     category, nodes, edges, num_nodes, baseIdx = process_input_data(data_dict)

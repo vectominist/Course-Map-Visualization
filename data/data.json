@@ -1,583 +1,1468 @@
 {
   "nodes": [
     {
-      "id": "n0",
-      "label": "1.1",
-      "x": -4.666666666666667,
+      "id": "n1",
+      "label": "What you will learn in this course",
+      "x": -4.25,
       "y": 1.0,
       "size": 3,
-      "color": "#8000ff",
-      "url": "https://google.com",
+      "color": "#ff3300",
+      "url": "https://youtu.be/SNT7LAGsLDY",
       "attributes": {
-        "acategory": "Ch 1"
-      }
-    },
-    {
-      "id": "n1",
-      "label": "1.2",
-      "x": -4.666666666666667,
-      "y": 2.0,
-      "size": 3,
-      "color": "#8000ff",
-      "url": "https://google.com",
-      "attributes": {
-        "acategory": "Ch 1"
+        "acategory": "overview",
+        "key": []
       }
     },
     {
       "id": "n2",
-      "label": "1.3",
-      "x": -6.666666666666667,
-      "y": 3.0,
+      "label": "Linear Algebra v.s. Other EE Courses",
+      "x": -4.25,
+      "y": 2.0,
       "size": 3,
-      "color": "#8000ff",
-      "url": "https://google.com",
+      "color": "#ff3300",
+      "url": "https://youtu.be/sc7dicXFoZE",
       "attributes": {
-        "acategory": "Ch 1"
+        "acategory": "overview",
+        "key": []
       }
     },
     {
       "id": "n3",
-      "label": "1.4",
-      "x": -4.666666666666667,
+      "label": "Brief Intro to Linear Algebra",
+      "x": -4.25,
       "y": 3.0,
       "size": 3,
-      "color": "#8000ff",
-      "url": "https://google.com",
+      "color": "#ff3300",
+      "url": "https://youtu.be/J-U_zKg15f4",
       "attributes": {
-        "acategory": "Ch 1"
+        "acategory": "overview",
+        "key": []
       }
     },
     {
       "id": "n4",
-      "label": "1.5",
-      "x": -4.666666666666667,
-      "y": 4.0,
+      "label": "Vector",
+      "x": -0.5833333333333335,
+      "y": 1.0,
       "size": 3,
-      "color": "#8000ff",
-      "url": "https://google.com",
+      "color": "#ff0000",
+      "url": "https://youtu.be/I3hyvWN78Is",
       "attributes": {
-        "acategory": "Ch 1"
+        "acategory": "high school",
+        "key": []
       }
     },
     {
       "id": "n5",
-      "label": "2.1",
-      "x": 0.33333333333333304,
+      "label": "Linear System",
+      "x": 4.833333333333334,
       "y": 1.0,
       "size": 3,
-      "color": "#2c7ef7",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/Ww3eAfLZjME",
       "attributes": {
-        "acategory": "Ch 2"
+        "acategory": "other",
+        "key": [
+          "linear system",
+          "system of linear equations"
+        ]
       }
     },
     {
       "id": "n6",
-      "label": "2.2",
-      "x": 0.33333333333333304,
+      "label": "Matrix",
+      "x": -2.75,
       "y": 2.0,
       "size": 3,
-      "color": "#2c7ef7",
-      "url": "https://google.com",
+      "color": "#ff0000",
+      "url": "https://youtu.be/7qwaAhcD2og",
       "attributes": {
-        "acategory": "Ch 2"
+        "acategory": "high school",
+        "key": []
       }
     },
     {
       "id": "n7",
-      "label": "2.3",
-      "x": -2.666666666666667,
+      "label": "Some Matrices",
+      "x": -3.25,
       "y": 3.0,
       "size": 3,
-      "color": "#2c7ef7",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/cf-WpQX70Vs",
       "attributes": {
-        "acategory": "Ch 2"
+        "acategory": "other",
+        "key": []
       }
     },
     {
       "id": "n8",
-      "label": "2.4",
-      "x": 0.33333333333333304,
-      "y": 3.0,
+      "label": "Linear System = Matrix-vector Product",
+      "x": 4.333333333333334,
+      "y": 2.0,
       "size": 3,
-      "color": "#2c7ef7",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/6wPSfjwm_qk",
       "attributes": {
-        "acategory": "Ch 2"
+        "acategory": "other",
+        "key": [
+          "linear system",
+          "system of linear equations"
+        ]
       }
     },
     {
       "id": "n9",
-      "label": "2.5",
-      "x": 0.33333333333333304,
-      "y": 4.0,
+      "label": "Properties of Matrix-vector Product",
+      "x": 2.2500000000000004,
+      "y": 3.0,
       "size": 3,
-      "color": "#2c7ef7",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/OMdCNhJp60M",
       "attributes": {
-        "acategory": "Ch 2"
+        "acategory": "other",
+        "key": [
+          "standard matrix"
+        ]
       }
     },
     {
       "id": "n10",
-      "label": "3.1",
-      "x": -2.666666666666667,
-      "y": 4.0,
+      "label": "Solution (high school)",
+      "x": 5.333333333333334,
+      "y": 2.0,
       "size": 3,
-      "color": "#2adddd",
-      "url": "https://google.com",
+      "color": "#ff0000",
+      "url": "https://youtu.be/zchDGSfr_yU",
       "attributes": {
-        "acategory": "Ch 3"
+        "acategory": "high school",
+        "key": [
+          "consistent",
+          "system of linear equations"
+        ]
       }
     },
     {
       "id": "n11",
-      "label": "3.2",
-      "x": -2.666666666666667,
-      "y": 5.0,
+      "label": "Solution (linear algebra)",
+      "x": 6.416666666666668,
+      "y": 3.0,
       "size": 3,
-      "color": "#2adddd",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/OHgibs_pDN8",
       "attributes": {
-        "acategory": "Ch 3"
+        "acategory": "other",
+        "key": [
+          "consistent",
+          "system of linear equations"
+        ]
       }
     },
     {
       "id": "n12",
-      "label": "3.3",
-      "x": -2.666666666666667,
-      "y": 6.0,
+      "label": "Linear Combination",
+      "x": 4.750000000000001,
+      "y": 4.0,
       "size": 3,
-      "color": "#2adddd",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/pZfvmcjIrpE",
       "attributes": {
-        "acategory": "Ch 3"
+        "acategory": "other",
+        "key": [
+          "linear combination",
+          "column aspect"
+        ]
       }
     },
     {
       "id": "n13",
-      "label": "4.1",
-      "x": 0.33333333333333304,
+      "label": "Span",
+      "x": 4.250000000000001,
       "y": 5.0,
       "size": 3,
-      "color": "#80ffb4",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/ozJem-GpCCI",
       "attributes": {
-        "acategory": "Ch 4"
+        "acategory": "other",
+        "key": [
+          "span",
+          "linear combination",
+          "consistent",
+          "system of linear equations"
+        ]
       }
     },
     {
       "id": "n14",
-      "label": "4.2",
-      "x": 0.33333333333333304,
+      "label": "Examples of Span",
+      "x": 4.250000000000001,
       "y": 6.0,
       "size": 3,
-      "color": "#80ffb4",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/FFb5Z-P66Wg",
       "attributes": {
-        "acategory": "Ch 4"
+        "acategory": "other",
+        "key": [
+          "span"
+        ]
       }
     },
     {
       "id": "n15",
-      "label": "4.3",
-      "x": -2.666666666666667,
-      "y": 7.0,
+      "label": "Dependent & Independent",
+      "x": 6.250000000000001,
+      "y": 4.0,
       "size": 3,
-      "color": "#80ffb4",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/01VTz0qe4So",
       "attributes": {
-        "acategory": "Ch 4"
+        "acategory": "other",
+        "key": [
+          "independent",
+          "linear combination",
+          "system of linear equations"
+        ]
       }
     },
     {
       "id": "n16",
-      "label": "4.4",
-      "x": -0.666666666666667,
-      "y": 7.0,
+      "label": "Rank & Nullity",
+      "x": 6.250000000000001,
+      "y": 5.0,
       "size": 3,
-      "color": "#80ffb4",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/7r6l9wbOvtw",
       "attributes": {
-        "acategory": "Ch 4"
+        "acategory": "other",
+        "key": [
+          "rank",
+          "nullity"
+        ]
       }
     },
     {
       "id": "n17",
-      "label": "4.5",
-      "x": 1.333333333333333,
-      "y": 7.0,
+      "label": "Finding Solutions",
+      "x": 8.250000000000002,
+      "y": 4.0,
       "size": 3,
-      "color": "#80ffb4",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/9Fp-OM__Gag",
       "attributes": {
-        "acategory": "Ch 4"
+        "acategory": "other",
+        "key": [
+          "system of linear equations",
+          "equivalent",
+          "augmented matrix",
+          "elementary row operation"
+        ]
       }
     },
     {
       "id": "n18",
-      "label": "5.1",
-      "x": -2.666666666666667,
-      "y": 8.0,
+      "label": "History",
+      "x": 7.750000000000002,
+      "y": 5.0,
       "size": 3,
-      "color": "#d4dd80",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/4amCguKincQ",
       "attributes": {
-        "acategory": "Ch 5"
+        "acategory": "other",
+        "key": [
+          "system of linear equations"
+        ]
       }
     },
     {
       "id": "n19",
-      "label": "5.2",
-      "x": -2.666666666666667,
-      "y": 9.0,
+      "label": "RREF",
+      "x": 8.750000000000002,
+      "y": 5.0,
       "size": 3,
-      "color": "#d4dd80",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/o4CCK3HXbOU",
       "attributes": {
-        "acategory": "Ch 5"
+        "acategory": "other",
+        "key": [
+          "RREF",
+          "Gaussian elimination",
+          "pivot columns",
+          "leading entries",
+          "pivot positions"
+        ]
       }
     },
     {
       "id": "n20",
-      "label": "5.3",
-      "x": -2.666666666666667,
-      "y": 10.0,
+      "label": "RREF v.s. Solution",
+      "x": 8.250000000000002,
+      "y": 6.0,
       "size": 3,
-      "color": "#d4dd80",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/FsXb223Ny9g",
       "attributes": {
-        "acategory": "Ch 5"
+        "acategory": "other",
+        "key": [
+          "RREF",
+          "system of linear equations",
+          "free variable",
+          "basic variable",
+          "parametric representation",
+          "consistent"
+        ]
       }
     },
     {
       "id": "n21",
-      "label": "5.4",
-      "x": 1.333333333333333,
-      "y": 8.0,
+      "label": "Finding RREF",
+      "x": 9.250000000000002,
+      "y": 6.0,
       "size": 3,
-      "color": "#d4dd80",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/eTe72ah-tAA",
       "attributes": {
-        "acategory": "Ch 5"
+        "acategory": "other",
+        "key": [
+          "RREF",
+          "Gaussian elimination"
+        ]
       }
     },
     {
       "id": "n22",
-      "label": "6.1",
-      "x": 4.333333333333333,
-      "y": 1.0,
+      "label": "Column Correspondence Theorem",
+      "x": 6.750000000000002,
+      "y": 7.0,
       "size": 3,
-      "color": "#ff7e41",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/U6lAQ9jnUig",
       "attributes": {
-        "acategory": "Ch 6"
+        "acategory": "other",
+        "key": [
+          "column correspondence theorem",
+          "linear combination"
+        ]
       }
     },
     {
       "id": "n23",
-      "label": "6.2",
-      "x": 4.333333333333333,
-      "y": 2.0,
+      "label": "Checking Independence",
+      "x": 7.750000000000002,
+      "y": 7.0,
       "size": 3,
-      "color": "#ff7e41",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/F-wnrI5P7Lo",
       "attributes": {
-        "acategory": "Ch 6"
+        "acategory": "other",
+        "key": [
+          "independent",
+          "homogeneous",
+          "system of linear equations"
+        ]
       }
     },
     {
       "id": "n24",
-      "label": "6.3",
-      "x": 2.333333333333333,
-      "y": 3.0,
+      "label": "More Definitions for Rank",
+      "x": 8.750000000000002,
+      "y": 7.0,
       "size": 3,
-      "color": "#ff7e41",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/157pYnHFBN0",
       "attributes": {
-        "acategory": "Ch 6"
+        "acategory": "other",
+        "key": [
+          "rank",
+          "nullity",
+          "free variable",
+          "basic variable",
+          "independent",
+          "pivot columns",
+          "full rank"
+        ]
       }
     },
     {
       "id": "n25",
-      "label": "6.4",
-      "x": 4.333333333333333,
-      "y": 3.0,
+      "label": "RREF v.s. Span",
+      "x": 9.750000000000002,
+      "y": 7.0,
       "size": 3,
-      "color": "#ff7e41",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/Xn5wKVxo3Qk",
       "attributes": {
-        "acategory": "Ch 6"
+        "acategory": "other",
+        "key": [
+          "RREF",
+          "consistent"
+        ]
       }
     },
     {
       "id": "n26",
-      "label": "6.5",
-      "x": 6.333333333333333,
+      "label": "Matrix Multiplication (basic)",
+      "x": -2.25,
       "y": 3.0,
       "size": 3,
-      "color": "#ff7e41",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/enV001nJT-Y",
       "attributes": {
-        "acategory": "Ch 6"
+        "acategory": "other",
+        "key": [
+          "matrix multiplication"
+        ]
       }
     },
     {
       "id": "n27",
-      "label": "6.6",
-      "x": 4.333333333333333,
+      "label": "Matrix Multiplication (meaning)",
+      "x": -2.25,
       "y": 4.0,
       "size": 3,
-      "color": "#ff7e41",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/_qYlNT-TZwU",
       "attributes": {
-        "acategory": "Ch 6"
+        "acategory": "other",
+        "key": [
+          "matrix multiplication"
+        ]
       }
     },
     {
       "id": "n28",
-      "label": "6.7",
-      "x": 2.333333333333333,
+      "label": "Properties of Matrix Multiplication",
+      "x": -2.25,
+      "y": 5.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/e3y7mM0j8Cc",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "matrix multiplication"
+        ]
+      }
+    },
+    {
+      "id": "n29",
+      "label": "Inverse of Matrix",
+      "x": -2.25,
+      "y": 6.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/rzof8obAaKQ",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "invertible",
+          "singular"
+        ]
+      }
+    },
+    {
+      "id": "n30",
+      "label": "Applications of Matrix Inverse",
+      "x": -3.416666666666667,
+      "y": 7.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/TVdC_surbJM",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "invertible"
+        ]
+      }
+    },
+    {
+      "id": "n31",
+      "label": "Invertible",
+      "x": -2.416666666666667,
+      "y": 7.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/NGuSHWr3JGE",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "invertible",
+          "onto",
+          "one-to-one",
+          "consistent",
+          "rank",
+          "independent",
+          "nullity",
+          "elementary matrix"
+        ]
+      }
+    },
+    {
+      "id": "n32",
+      "label": "Proof of Invertibility",
+      "x": -2.416666666666667,
+      "y": 8.0,
+      "size": 3,
+      "color": "#ff6600",
+      "url": "https://youtu.be/KnF2KvZa9tU",
+      "attributes": {
+        "acategory": "proof",
+        "key": [
+          "invertible"
+        ]
+      }
+    },
+    {
+      "id": "n33",
+      "label": "Elementary Matrix",
+      "x": -0.9166666666666667,
+      "y": 7.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/BVyWqkkEUKA",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "RREF",
+          "elementary matrix",
+          "elementary row operation",
+          "invertible"
+        ]
+      }
+    },
+    {
+      "id": "n34",
+      "label": "Inverse of Any Matrix",
+      "x": -1.4166666666666667,
+      "y": 8.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/YnvAIsjYBFg",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "RREF",
+          "invertible"
+        ]
+      }
+    },
+    {
+      "id": "n35",
+      "label": "Subspace",
+      "x": 5.250000000000001,
+      "y": 5.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/TrODVvKbH40",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "subspace"
+        ]
+      }
+    },
+    {
+      "id": "n36",
+      "label": "Basis Theorem",
+      "x": 5.250000000000001,
+      "y": 6.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/CIu6IrmuGk8",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "basis",
+          "span",
+          "independent",
+          "dimension"
+        ]
+      }
+    },
+    {
+      "id": "n37",
+      "label": "More About Basis Theorem",
+      "x": 4.750000000000001,
+      "y": 7.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/miobPHqRlng",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "basis",
+          "span",
+          "independent",
+          "dimension"
+        ]
+      }
+    },
+    {
+      "id": "n38",
+      "label": "Checking Basis",
+      "x": 5.750000000000001,
+      "y": 7.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/PEYrfGXARsQ",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "basis",
+          "span",
+          "independent",
+          "dimension"
+        ]
+      }
+    },
+    {
+      "id": "n39",
+      "label": "Dimension of Subspace",
+      "x": 5.250000000000001,
+      "y": 8.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/b4a9bxq2NNM",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "subspace",
+          "dimension"
+        ]
+      }
+    },
+    {
+      "id": "n40",
+      "label": "Coordinate System",
+      "x": 6.250000000000001,
+      "y": 8.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/n5zrUW97iSU",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "coordinate system",
+          "basis"
+        ]
+      }
+    },
+    {
+      "id": "n41",
+      "label": "Change Coordinate (Part 1)",
+      "x": 6.250000000000001,
+      "y": 9.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/MoaGAZpMdKg",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "coordinate system",
+          "basis"
+        ]
+      }
+    },
+    {
+      "id": "n42",
+      "label": "Determinant (Cofactor Expansion)",
+      "x": -0.41666666666666674,
+      "y": 8.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/AI7xMVBZiQs",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "determinant"
+        ]
+      }
+    },
+    {
+      "id": "n43",
+      "label": "Basic Properties of Determinant",
+      "x": -0.41666666666666674,
+      "y": 9.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/gmKsFgYcaNA",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "determinant"
+        ]
+      }
+    },
+    {
+      "id": "n44",
+      "label": "Cramer\u2019s Rule",
+      "x": -0.9166666666666667,
+      "y": 10.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/lvID7tsTw1o",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "determinant"
+        ]
+      }
+    },
+    {
+      "id": "n45",
+      "label": "More Properties of Determinant",
+      "x": 0.08333333333333326,
+      "y": 10.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/TsArHKRwTn4",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "determinant"
+        ]
+      }
+    },
+    {
+      "id": "n46",
+      "label": "Change Coordinate (Part 2)",
+      "x": 6.250000000000001,
+      "y": 10.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/6Of7c_rqPFA",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "coordinate system",
+          "basis"
+        ]
+      }
+    },
+    {
+      "id": "n47",
+      "label": "Functions in Different Coordinate Systems",
+      "x": 6.250000000000001,
+      "y": 11.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/BYg_BxgJ30Y",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "similar",
+          "coordinate system"
+        ]
+      }
+    },
+    {
+      "id": "n48",
+      "label": "Eigenvalues and Eigenvectors",
+      "x": 2.2500000000000004,
       "y": 4.0,
       "size": 3,
-      "color": "#ff7e41",
-      "url": "https://google.com",
+      "color": "#ffcc00",
+      "url": "https://youtu.be/5qsOtqBcjSw",
       "attributes": {
-        "acategory": "Ch 6"
+        "acategory": "other",
+        "key": [
+          "eigenvalue",
+          "eigenvector"
+        ]
+      }
+    },
+    {
+      "id": "n49",
+      "label": "Characteristic Polynomial",
+      "x": 1.2500000000000004,
+      "y": 5.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/ZisK7SKbqyY",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "eigenvalue"
+        ]
+      }
+    },
+    {
+      "id": "n50",
+      "label": "Diagonalization (Part 1)",
+      "x": 2.2500000000000004,
+      "y": 5.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/Z8xlOeT2mGo",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "diagonalization"
+        ]
+      }
+    },
+    {
+      "id": "n51",
+      "label": "Diagonalization (Part 2)",
+      "x": 2.2500000000000004,
+      "y": 6.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/xjqJgfAiCsg",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "diagonalization"
+        ]
+      }
+    },
+    {
+      "id": "n52",
+      "label": "Page Rank",
+      "x": 3.2500000000000004,
+      "y": 5.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/8kH2L5xF8vE",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "page rank",
+          "eigenvalue",
+          "eigenvector"
+        ]
+      }
+    },
+    {
+      "id": "n53",
+      "label": "Orthogonality",
+      "x": -0.25,
+      "y": 2.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/47KbIAtT_xw",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "norm",
+          "orthogonal"
+        ]
+      }
+    },
+    {
+      "id": "n54",
+      "label": "Orthogonal Basis",
+      "x": -0.75,
+      "y": 3.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/qcHve0XEKWg",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "basis",
+          "orthogonal",
+          "Gram-Schmidt process"
+        ]
+      }
+    },
+    {
+      "id": "n55",
+      "label": "Orthogonal Complement",
+      "x": -0.75,
+      "y": 4.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/CbMP9huI5tQ",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "span",
+          "subspace",
+          "basis",
+          "dimension",
+          "orthogonal"
+        ]
+      }
+    },
+    {
+      "id": "n56",
+      "label": "Orthogonal Projection",
+      "x": -0.75,
+      "y": 5.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/CA9G35EDIgc",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "orthogonal"
+        ]
+      }
+    },
+    {
+      "id": "n57",
+      "label": "How to do Orthogonal Projection?",
+      "x": -1.25,
+      "y": 6.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/MwfwhmvRrqg",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "orthogonal"
+        ]
+      }
+    },
+    {
+      "id": "n58",
+      "label": "Applications of Orthogonal Projection",
+      "x": -0.25,
+      "y": 6.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/fIpR9PTYapU",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "orthogonal",
+          "least squares"
+        ]
+      }
+    },
+    {
+      "id": "n59",
+      "label": "Orthogonal Matrix",
+      "x": 0.25,
+      "y": 3.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/eqwGGrXXOpQ",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "orthogonal"
+        ]
+      }
+    },
+    {
+      "id": "n60",
+      "label": "Symmetric matrix",
+      "x": 1.2500000000000004,
+      "y": 6.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/APYOT2BiQ9c",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "diagonalization"
+        ]
+      }
+    },
+    {
+      "id": "n61",
+      "label": "SVD",
+      "x": 1.2500000000000004,
+      "y": 7.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/_9sfpGa3eQA",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "SVD",
+          "eigenvalue",
+          "eigenvector"
+        ]
+      }
+    },
+    {
+      "id": "n62",
+      "label": "General Vector (Part 1)",
+      "x": 1.25,
+      "y": 2.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/zb_h1j6IZkI",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "span",
+          "linear combination",
+          "subspace"
+        ]
+      }
+    },
+    {
+      "id": "n63",
+      "label": "General Vector (Part 2)",
+      "x": 1.25,
+      "y": 3.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/GwNoWbSpRWE",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "isomorphism",
+          "basis",
+          "independent",
+          "eigenvalue",
+          "eigenvector"
+        ]
+      }
+    },
+    {
+      "id": "n64",
+      "label": "General Vector (Part 3)",
+      "x": 1.25,
+      "y": 4.0,
+      "size": 3,
+      "color": "#ffcc00",
+      "url": "https://youtu.be/kbbQooMd2Fk",
+      "attributes": {
+        "acategory": "other",
+        "key": [
+          "inner product",
+          "orthogonal",
+          "norm",
+          "Gram-Schmidt process"
+        ]
       }
     }
   ],
   "edges": [
     {
       "id": "e0",
-      "source": "n0",
-      "target": "n1",
-      "type": "arrow",
-      "size": 4
-    },
-    {
-      "id": "e1",
       "source": "n1",
       "target": "n2",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e2",
-      "source": "n1",
+      "id": "e1",
+      "source": "n2",
       "target": "n3",
       "type": "arrow",
       "size": 4
     },
     {
+      "id": "e2",
+      "source": "n4",
+      "target": "n6",
+      "type": "arrow",
+      "size": 4
+    },
+    {
       "id": "e3",
-      "source": "n3",
-      "target": "n4",
+      "source": "n6",
+      "target": "n7",
       "type": "arrow",
       "size": 4
     },
     {
       "id": "e4",
       "source": "n5",
-      "target": "n6",
-      "type": "arrow",
-      "size": 4
-    },
-    {
-      "id": "e5",
-      "source": "n6",
-      "target": "n7",
-      "type": "arrow",
-      "size": 4
-    },
-    {
-      "id": "e6",
-      "source": "n1",
-      "target": "n7",
-      "type": "arrow",
-      "size": 4
-    },
-    {
-      "id": "e7",
-      "source": "n6",
       "target": "n8",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e8",
+      "id": "e5",
       "source": "n8",
       "target": "n9",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e9",
-      "source": "n7",
+      "id": "e6",
+      "source": "n5",
       "target": "n10",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e10",
+      "id": "e7",
+      "source": "n8",
+      "target": "n11",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e8",
       "source": "n10",
       "target": "n11",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e11",
-      "source": "n9",
-      "target": "n11",
-      "type": "arrow",
-      "size": 4
-    },
-    {
-      "id": "e12",
+      "id": "e9",
       "source": "n11",
       "target": "n12",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e13",
-      "source": "n9",
+      "id": "e10",
+      "source": "n12",
       "target": "n13",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e14",
+      "id": "e11",
       "source": "n13",
       "target": "n14",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e15",
-      "source": "n14",
+      "id": "e12",
+      "source": "n11",
       "target": "n15",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e16",
-      "source": "n12",
-      "target": "n15",
-      "type": "arrow",
-      "size": 4
-    },
-    {
-      "id": "e17",
-      "source": "n14",
+      "id": "e13",
+      "source": "n15",
       "target": "n16",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e18",
-      "source": "n14",
+      "id": "e14",
+      "source": "n11",
       "target": "n17",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e19",
-      "source": "n15",
+      "id": "e15",
+      "source": "n17",
       "target": "n18",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e20",
-      "source": "n16",
-      "target": "n18",
-      "type": "arrow",
-      "size": 4
-    },
-    {
-      "id": "e21",
-      "source": "n18",
+      "id": "e16",
+      "source": "n17",
       "target": "n19",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e22",
+      "id": "e17",
       "source": "n19",
       "target": "n20",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e23",
+      "id": "e18",
       "source": "n19",
       "target": "n21",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e24",
-      "source": "n17",
-      "target": "n21",
+      "id": "e19",
+      "source": "n20",
+      "target": "n22",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e25",
-      "source": "n22",
+      "id": "e20",
+      "source": "n20",
       "target": "n23",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e26",
-      "source": "n23",
+      "id": "e21",
+      "source": "n20",
       "target": "n24",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e27",
-      "source": "n23",
+      "id": "e22",
+      "source": "n20",
       "target": "n25",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e28",
-      "source": "n23",
+      "id": "e23",
+      "source": "n6",
       "target": "n26",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e29",
-      "source": "n25",
-      "target": "n27",
-      "type": "arrow",
-      "size": 4
-    },
-    {
-      "id": "e30",
+      "id": "e24",
       "source": "n26",
       "target": "n27",
       "type": "arrow",
       "size": 4
     },
     {
-      "id": "e31",
+      "id": "e25",
       "source": "n27",
       "target": "n28",
       "type": "arrow",
       "size": 4
     },
     {
+      "id": "e26",
+      "source": "n28",
+      "target": "n29",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e27",
+      "source": "n29",
+      "target": "n30",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e28",
+      "source": "n29",
+      "target": "n31",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e29",
+      "source": "n31",
+      "target": "n32",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e30",
+      "source": "n29",
+      "target": "n33",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e31",
+      "source": "n33",
+      "target": "n34",
+      "type": "arrow",
+      "size": 4
+    },
+    {
       "id": "e32",
-      "source": "n24",
-      "target": "n28",
+      "source": "n12",
+      "target": "n35",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e33",
+      "source": "n35",
+      "target": "n36",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e34",
+      "source": "n36",
+      "target": "n37",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e35",
+      "source": "n36",
+      "target": "n38",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e36",
+      "source": "n38",
+      "target": "n39",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e37",
+      "source": "n38",
+      "target": "n40",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e38",
+      "source": "n40",
+      "target": "n41",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e39",
+      "source": "n33",
+      "target": "n42",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e40",
+      "source": "n42",
+      "target": "n43",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e41",
+      "source": "n43",
+      "target": "n44",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e42",
+      "source": "n43",
+      "target": "n45",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e43",
+      "source": "n41",
+      "target": "n46",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e44",
+      "source": "n46",
+      "target": "n47",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e45",
+      "source": "n9",
+      "target": "n48",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e46",
+      "source": "n48",
+      "target": "n49",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e47",
+      "source": "n48",
+      "target": "n50",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e48",
+      "source": "n50",
+      "target": "n51",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e49",
+      "source": "n48",
+      "target": "n52",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e50",
+      "source": "n4",
+      "target": "n53",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e51",
+      "source": "n53",
+      "target": "n54",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e52",
+      "source": "n54",
+      "target": "n55",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e53",
+      "source": "n55",
+      "target": "n56",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e54",
+      "source": "n56",
+      "target": "n57",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e55",
+      "source": "n56",
+      "target": "n58",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e56",
+      "source": "n53",
+      "target": "n59",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e57",
+      "source": "n49",
+      "target": "n60",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e58",
+      "source": "n60",
+      "target": "n61",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e59",
+      "source": "n4",
+      "target": "n62",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e60",
+      "source": "n62",
+      "target": "n63",
+      "type": "arrow",
+      "size": 4
+    },
+    {
+      "id": "e61",
+      "source": "n63",
+      "target": "n64",
       "type": "arrow",
       "size": 4
     }

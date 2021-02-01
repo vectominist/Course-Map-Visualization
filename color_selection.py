@@ -4,7 +4,7 @@ import matplotlib.colors as mcolors
 
 COLORS = mcolors.CSS4_COLORS
 DEFAULT_COLORS = [
-    'indianred', 
+    'indianred',
     'coral',
     'orange',
     'gold',
@@ -20,6 +20,7 @@ DEFAULT_COLORS = [
     'crimson'
 ]
 
+
 def get_color(ratio, c_type='default', cmap_type='rainbow'):
     # Get color from either DEFAULT_COLORS or Colormap
     # ratio: float, ranging from 0 to 1
@@ -30,6 +31,7 @@ def get_color(ratio, c_type='default', cmap_type='rainbow'):
         return mcolors.to_hex(cmap(ratio))
     else:
         raise NotImplementedError('Color type {} is invalid.'.format(c_type))
+
 
 def show_colors(colors):
     x_size = 10
@@ -44,6 +46,7 @@ def show_colors(colors):
     plt.tight_layout()
     plt.show()
 
+
 def show_color_map(cmap_type):
     x_size = 10
     fig, ax = plt.subplots(figsize=(x_size, 1))
@@ -55,6 +58,7 @@ def show_color_map(cmap_type):
     ax.imshow(grad, aspect='auto', cmap=plt.get_cmap(cmap_type))
     plt.tight_layout()
     plt.show()
+
 
 if __name__ == '__main__':
     # For debugging: plot the colors used for the categories

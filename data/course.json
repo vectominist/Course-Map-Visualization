@@ -1,221 +1,517 @@
 {
-  "category": [
-    "Ch 1",
-    "Ch 2",
-    "Ch 3",
-    "Ch 4",
-    "Ch 5",
-    "Ch 6"
-  ],
-  "nodes": [
-    {
-      "id": 0,
-      "label": "1.1",
-      "category": "Ch 1",
-      "url": "https://google.com"
-    },
-    {
-      "id": 1,
-      "label": "1.2",
-      "category": "Ch 1",
-      "url": "https://google.com"
-    },
-    {
-      "id": 2,
-      "label": "1.3",
-      "category": "Ch 1",
-      "url": "https://google.com"
-    },
-    {
-      "id": 3,
-      "label": "1.4",
-      "category": "Ch 1",
-      "url": "https://google.com"
-    },
-    {
-      "id": 4,
-      "label": "1.5",
-      "category": "Ch 1",
-      "url": "https://google.com"
-    },
-    {
-      "id": 5,
-      "label": "2.1",
-      "category": "Ch 2",
-      "url": "https://google.com"
-    },
-    {
-      "id": 6,
-      "label": "2.2",
-      "category": "Ch 2",
-      "url": "https://google.com"
-    },
-    {
-      "id": 7,
-      "label": "2.3",
-      "category": "Ch 2",
-      "url": "https://google.com"
-    },
-    {
-      "id": 8,
-      "label": "2.4",
-      "category": "Ch 2",
-      "url": "https://google.com"
-    },
-    {
-      "id": 9,
-      "label": "2.5",
-      "category": "Ch 2",
-      "url": "https://google.com"
-    },
-    {
-      "id": 10,
-      "label": "3.1",
-      "category": "Ch 3",
-      "url": "https://google.com"
-    },
-    {
-      "id": 11,
-      "label": "3.2",
-      "category": "Ch 3",
-      "url": "https://google.com"
-    },
-    {
-      "id": 12,
-      "label": "3.3",
-      "category": "Ch 3",
-      "url": "https://google.com"
-    },
-    {
-      "id": 13,
-      "label": "4.1",
-      "category": "Ch 4",
-      "url": "https://google.com"
-    },
-    {
-      "id": 14,
-      "label": "4.2",
-      "category": "Ch 4",
-      "url": "https://google.com"
-    },
-    {
-      "id": 15,
-      "label": "4.3",
-      "category": "Ch 4",
-      "url": "https://google.com"
-    },
-    {
-      "id": 16,
-      "label": "4.4",
-      "category": "Ch 4",
-      "url": "https://google.com"
-    },
-    {
-      "id": 17,
-      "label": "4.5",
-      "category": "Ch 4",
-      "url": "https://google.com"
-    },
-    {
-      "id": 18,
-      "label": "5.1",
-      "category": "Ch 5",
-      "url": "https://google.com"
-    },
-    {
-      "id": 19,
-      "label": "5.2",
-      "category": "Ch 5",
-      "url": "https://google.com"
-    },
-    {
-      "id": 20,
-      "label": "5.3",
-      "category": "Ch 5",
-      "url": "https://google.com"
-    },
-    {
-      "id": 21,
-      "label": "5.4",
-      "category": "Ch 5",
-      "url": "https://google.com"
-    },
-    {
-      "id": 22,
-      "label": "6.1",
-      "category": "Ch 6",
-      "url": "https://google.com"
-    },
-    {
-      "id": 23,
-      "label": "6.2",
-      "category": "Ch 6",
-      "url": "https://google.com"
-    },
-    {
-      "id": 24,
-      "label": "6.3",
-      "category": "Ch 6",
-      "url": "https://google.com"
-    },
-    {
-      "id": 25,
-      "label": "6.4",
-      "category": "Ch 6",
-      "url": "https://google.com"
-    },
-    {
-      "id": 26,
-      "label": "6.5",
-      "category": "Ch 6",
-      "url": "https://google.com"
-    },
-    {
-      "id": 27,
-      "label": "6.6",
-      "category": "Ch 6",
-      "url": "https://google.com"
-    },
-    {
-      "id": 28,
-      "label": "6.7",
-      "category": "Ch 6",
-      "url": "https://google.com"
-    }
-  ],
-  "edges": [
-    [0, 1], 
-    [1, 2],
-    [1, 3],
-    [3, 4],
-    [5, 6],
-    [6, 7],
-    [1, 7],
-    [6, 8],
-    [8, 9],
-    [7, 10],
-    [10, 11],
-    [9, 11],
-    [11, 12],
-    [9, 13],
-    [13, 14],
-    [14, 15],
-    [12, 15],
-    [14, 16],
-    [14, 17],
-    [15, 18],
-    [16, 18],
-    [18, 19],
-    [19, 20],
-    [19, 21],
-    [17, 21],
-    [22, 23],
-    [23, 24],
-    [23, 25],
-    [23, 26],
-    [25, 27],
-    [26, 27],
-    [27, 28],
-    [24, 28]
-  ]
-}
+    "category": [
+        "high school",
+        "overview",
+        "proof",
+        "HW",
+        "other"
+    ],
+    "nodes": [
+      {
+        "id": 1,
+        "label": "What you will learn in this course",
+        "category": "overview",
+        "url": "https://youtu.be/SNT7LAGsLDY"
+      },
+      {
+        "id": 2,
+        "label": "Linear Algebra v.s. Other EE Courses",
+        "category": "overview",
+        "url": "https://youtu.be/sc7dicXFoZE"
+      },
+      {
+        "id": 3,
+        "label": "Brief Intro to Linear Algebra",
+        "category": "overview",
+        "url": "https://youtu.be/J-U_zKg15f4"
+      },
+      {
+        "id": 4,
+        "label": "Vector",
+        "category": "high school",
+        "url": "https://youtu.be/I3hyvWN78Is"
+      },
+      {
+        "id": 5,
+        "label": "Linear System",
+        "category": "other",
+        "key": ["linear system", "system of linear equations"],
+        "url": "https://youtu.be/Ww3eAfLZjME"
+      },
+      {
+        "id": 6,
+        "label": "Matrix",
+        "category": "high school",
+        "url": "https://youtu.be/7qwaAhcD2og"
+      },
+      {
+        "id": 7,
+        "label": "Some Matrices",
+        "category": "other",
+        "url": "https://youtu.be/cf-WpQX70Vs"
+      },
+      {
+        "id": 8,
+        "label": "Linear System = Matrix-vector Product",
+        "category": "other",
+        "key": ["linear system", "system of linear equations"],
+        "url": "https://youtu.be/6wPSfjwm_qk"
+      },
+      {
+        "id": 9,
+        "label": "Properties of Matrix-vector Product",
+        "category": "other",
+        "key": ["standard matrix"],
+        "url": "https://youtu.be/OMdCNhJp60M"
+      },
+      {
+        "id": 10,
+        "label": "Solution (high school)",
+        "category": "high school",
+        "key": ["consistent", "system of linear equations"],
+        "url": "https://youtu.be/zchDGSfr_yU"
+      },
+      {
+        "id": 11,
+        "label": "Solution (linear algebra)",
+        "category": "other",
+        "key": ["consistent", "system of linear equations"],
+        "url": "https://youtu.be/OHgibs_pDN8"
+      },
+      {
+        "id": 12,
+        "label": "Linear Combination",
+        "category": "other",
+        "key": ["linear combination", "column aspect"],
+        "url": "https://youtu.be/pZfvmcjIrpE"
+      },
+      {
+        "id": 13,
+        "label": "Span",
+        "category": "other",
+        "key": ["span", "linear combination", "consistent", "system of linear equations"],
+        "url": "https://youtu.be/ozJem-GpCCI"
+      },
+      {
+        "id": 14,
+        "label": "Examples of Span",
+        "category": "other",
+        "key": ["span"],
+        "url": "https://youtu.be/FFb5Z-P66Wg"
+      },
+      {
+        "id": 15,
+        "label": "Dependent & Independent",
+        "category": "other",
+        "key": ["independent", "linear combination", "system of linear equations"],
+        "url": "https://youtu.be/01VTz0qe4So"
+      },
+      {
+        "id": 16,
+        "label": "Rank & Nullity",
+        "category": "other",
+        "key": ["rank", "nullity"],
+        "url": "https://youtu.be/7r6l9wbOvtw"
+      },
+      {
+        "id": 17,
+        "label": "Finding Solutions",
+        "category": "other",
+        "key": ["system of linear equations", "equivalent", "augmented matrix", "elementary row operation"],
+        "url": "https://youtu.be/9Fp-OM__Gag"
+      },
+      {
+        "id": 18,
+        "label": "History",
+        "category": "other",
+        "key": ["system of linear equations"],
+        "url": "https://youtu.be/4amCguKincQ"
+      },
+      {
+        "id": 19,
+        "label": "RREF",
+        "category": "other",
+        "key": ["RREF", "Gaussian elimination", "pivot columns", "leading entries", "pivot positions"],
+        "url": "https://youtu.be/o4CCK3HXbOU"
+      },
+      {
+        "id": 20,
+        "label": "RREF v.s. Solution",
+        "category": "other",
+        "key": ["RREF", "system of linear equations", "free variable", "basic variable", "parametric representation", "consistent"],
+        "url": "https://youtu.be/FsXb223Ny9g"
+      },
+      {
+        "id": 21,
+        "label": "Finding RREF",
+        "category": "other",
+        "key": ["RREF", "Gaussian elimination"],
+        "url": "https://youtu.be/eTe72ah-tAA"
+      },
+      {
+        "id": 22,
+        "label": "Column Correspondence Theorem",
+        "category": "other",
+        "key": ["column correspondence theorem", "linear combination"],
+        "url": "https://youtu.be/U6lAQ9jnUig"
+      },
+      {
+        "id": 23,
+        "label": "Checking Independence",
+        "category": "other",
+        "key": ["independent", "homogeneous", "system of linear equations"],
+        "url": "https://youtu.be/F-wnrI5P7Lo"
+      },
+      {
+        "id": 24,
+        "label": "More Definitions for Rank",
+        "category": "other",
+        "key": ["rank", "nullity", "free variable", "basic variable", "independent", "pivot columns", "full rank"],
+        "url": "https://youtu.be/157pYnHFBN0"
+      },
+      {
+        "id": 25,
+        "label": "RREF v.s. Span",
+        "category": "other",
+        "key": ["RREF", "consistent"],
+        "url": "https://youtu.be/Xn5wKVxo3Qk"
+      },
+      {
+        "id": 26,
+        "label": "Matrix Multiplication (basic)",
+        "category": "other",
+        "key": ["matrix multiplication"],
+        "url": "https://youtu.be/enV001nJT-Y"
+      },
+      {
+        "id": 27,
+        "label": "Matrix Multiplication (meaning)",
+        "category": "other",
+        "key": ["matrix multiplication"],
+        "url": "https://youtu.be/_qYlNT-TZwU"
+      },
+      {
+        "id": 28,
+        "label": "Properties of Matrix Multiplication",
+        "category": "other",
+        "key": ["matrix multiplication"],
+        "url": "https://youtu.be/e3y7mM0j8Cc"
+      },
+      {
+        "id": 29,
+        "label": "Inverse of Matrix",
+        "category": "other",
+        "key": ["invertible", "singular"],
+        "url": "https://youtu.be/rzof8obAaKQ"
+      },
+      {
+        "id": 30,
+        "label": "Applications of Matrix Inverse",
+        "category": "other",
+        "key": ["invertible"],
+        "url": "https://youtu.be/TVdC_surbJM"
+      },
+      {
+        "id": 31,
+        "label": "Invertible",
+        "category": "other",
+        "key": ["invertible", "onto", "one-to-one", "consistent", "rank", "independent", "nullity", "elementary matrix"],
+        "url": "https://youtu.be/NGuSHWr3JGE"
+      },
+      {
+        "id": 32,
+        "label": "Proof of Invertibility",
+        "category": "proof",
+        "key": ["invertible"],
+        "url": "https://youtu.be/KnF2KvZa9tU"
+      },
+      {
+        "id": 33,
+        "label": "Elementary Matrix",
+        "category": "other",
+        "key": ["RREF", "elementary matrix", "elementary row operation", "invertible"],
+        "url": "https://youtu.be/BVyWqkkEUKA"
+      },
+      {
+        "id": 34,
+        "label": "Inverse of Any Matrix",
+        "category": "other",
+        "key": ["RREF", "invertible"],
+        "url": "https://youtu.be/YnvAIsjYBFg"
+      },
+      {
+        "id": 35,
+        "label": "Subspace",
+        "category": "other",
+        "key": ["subspace"],
+        "url": "https://youtu.be/TrODVvKbH40"
+      },
+      {
+        "id": 36,
+        "label": "Basis Theorem",
+        "category": "other",
+        "key": ["basis", "span", "independent", "dimension"],
+        "url": "https://youtu.be/CIu6IrmuGk8"
+      },
+      {
+        "id": 37,
+        "label": "More About Basis Theorem",
+        "category": "other",
+        "key": ["basis", "span", "independent", "dimension"],
+        "url": "https://youtu.be/miobPHqRlng"
+      },
+      {
+        "id": 38,
+        "label": "Checking Basis",
+        "category": "other",
+        "key": ["basis", "span", "independent", "dimension"],
+        "url": "https://youtu.be/PEYrfGXARsQ"
+      },
+      {
+        "id": 39,
+        "label": "Dimension of Subspace",
+        "category": "other",
+        "key": ["subspace", "dimension"],
+        "url": "https://youtu.be/b4a9bxq2NNM"
+      },
+      {
+        "id": 40,
+        "label": "Coordinate System",
+        "category": "other",
+        "key": ["coordinate system", "basis"],
+        "url": "https://youtu.be/n5zrUW97iSU"
+      },
+      {
+        "id": 41,
+        "label": "Change Coordinate (Part 1)",
+        "category": "other",
+        "key": ["coordinate system", "basis"],
+        "url": "https://youtu.be/MoaGAZpMdKg"
+      },
+      {
+        "id": 42,
+        "label": "Determinant (Cofactor Expansion)",
+        "category": "other",
+        "key": ["determinant"],
+        "url": "https://youtu.be/AI7xMVBZiQs"
+      },
+      {
+        "id": 43,
+        "label": "Basic Properties of Determinant",
+        "category": "other",
+        "key": ["determinant"],
+        "url": "https://youtu.be/gmKsFgYcaNA"
+      },
+      {
+        "id": 44,
+        "label": "Cramer’s Rule",
+        "category": "other",
+        "key": ["determinant"],
+        "url": "https://youtu.be/lvID7tsTw1o"
+      },
+      {
+        "id": 45,
+        "label": "More Properties of Determinant",
+        "category": "other",
+        "key": ["determinant"],
+        "url": "https://youtu.be/TsArHKRwTn4"
+      },
+      {
+        "id": 46,
+        "label": "Change Coordinate (Part 2)",
+        "category": "other",
+        "key": ["coordinate system", "basis"],
+        "url": "https://youtu.be/6Of7c_rqPFA"
+      },
+      {
+        "id": 47,
+        "label": "Functions in Different Coordinate Systems",
+        "category": "other",
+        "key": ["similar", "coordinate system"],
+        "url": "https://youtu.be/BYg_BxgJ30Y"
+      },
+      {
+        "id": 48,
+        "label": "Eigenvalues and Eigenvectors",
+        "category": "other",
+        "key": ["eigenvalue", "eigenvector"],
+        "url": "https://youtu.be/5qsOtqBcjSw"
+      },
+      {
+        "id": 49,
+        "label": "Characteristic Polynomial",
+        "category": "other",
+        "key": ["eigenvalue"],
+        "url": "https://youtu.be/ZisK7SKbqyY"
+      },
+      {
+        "id": 50,
+        "label": "Diagonalization (Part 1)",
+        "category": "other",
+        "key": ["diagonalization"],
+        "url": "https://youtu.be/Z8xlOeT2mGo"
+      },
+      {
+        "id": 51,
+        "label": "Diagonalization (Part 2)",
+        "category": "other",
+        "key": ["diagonalization"],
+        "url": "https://youtu.be/xjqJgfAiCsg"
+      },
+      {
+        "id": 52,
+        "label": "Page Rank",
+        "category": "other",
+        "key": ["page rank", "eigenvalue", "eigenvector"],
+        "url": "https://youtu.be/8kH2L5xF8vE"
+      },
+      {
+        "id": 53,
+        "label": "Orthogonality",
+        "category": "other",
+        "key": ["norm", "orthogonal"],
+        "url": "https://youtu.be/47KbIAtT_xw"
+      },
+      {
+        "id": 54,
+        "label": "Orthogonal Basis",
+        "category": "other",
+        "key": ["basis", "orthogonal", "Gram-Schmidt process"],
+        "url": "https://youtu.be/qcHve0XEKWg"
+      },
+      {
+        "id": 55,
+        "label": "Orthogonal Complement",
+        "category": "other",
+        "key": ["span", "subspace", "basis", "dimension", "orthogonal"],
+        "url": "https://youtu.be/CbMP9huI5tQ"
+      },
+      {
+        "id": 56,
+        "label": "Orthogonal Projection",
+        "category": "other",
+        "key": ["orthogonal"],
+        "url": "https://youtu.be/CA9G35EDIgc"
+      },
+      {
+        "id": 57,
+        "label": "How to do Orthogonal Projection?",
+        "category": "other",
+        "key": ["orthogonal"],
+        "url": "https://youtu.be/MwfwhmvRrqg"
+      },
+      {
+        "id": 58,
+        "label": "Applications of Orthogonal Projection",
+        "category": "other",
+        "key": ["orthogonal", "least squares"],
+        "url": "https://youtu.be/fIpR9PTYapU"
+      },
+      {
+        "id": 59,
+        "label": "Orthogonal Matrix",
+        "category": "other",
+        "key": ["orthogonal"],
+        "url": "https://youtu.be/eqwGGrXXOpQ"
+      },
+      {
+        "id": 60,
+        "label": "Symmetric matrix",
+        "category": "other",
+        "key": ["diagonalization"],
+        "url": "https://youtu.be/APYOT2BiQ9c"
+      },
+      {
+        "id": 61,
+        "label": "SVD",
+        "category": "other",
+        "key": ["SVD", "eigenvalue", "eigenvector"],
+        "url": "https://youtu.be/_9sfpGa3eQA"
+      },
+      {
+        "id": 62,
+        "label": "General Vector (Part 1)",
+        "category": "other",
+        "key": ["span", "linear combination", "subspace"],
+        "url": "https://youtu.be/zb_h1j6IZkI"
+      },
+      {
+        "id": 63,
+        "label": "General Vector (Part 2)",
+        "category": "other",
+        "key": ["isomorphism", "basis", "independent", "eigenvalue", "eigenvector"],
+        "url": "https://youtu.be/GwNoWbSpRWE"
+      },
+      {
+        "id": 64,
+        "label": "General Vector (Part 3)",
+        "category": "other",
+        "key": ["inner product", "orthogonal", "norm", "Gram-Schmidt process"],
+        "url": "https://youtu.be/kbbQooMd2Fk"
+      }
+    ],
+    "edges": [
+      [1, 2],
+      [2, 3],
+      [4, 6],
+      [6, 7],
+      [5, 8],
+      [8, 9],
+      [5, 10],
+      [8, 11],
+      [10, 11],
+      [11, 12],
+      [12, 13],
+      [13, 14],
+      [11, 15],
+      [15, 16],
+      [11, 17],
+      [17, 18],
+      [17, 19],
+      [19, 20],
+      [19, 21],
+      [20, 22],
+      [20, 23],
+      [20, 24],
+      [20, 25],
+      [6, 26],
+      [26, 27],
+      [27, 28],
+      [28, 29],
+      [29, 30],
+      [29, 31],
+      [31, 32],
+      [29, 33],
+      [33, 34],
+      [12, 35],
+      [35, 36],
+      [36, 37],
+      [36, 38],
+      [38, 39],
+      [38, 40],
+      [40, 41],
+      [33, 42],
+      [42, 43],
+      [43, 44],
+      [43, 45],
+      [41, 46],
+      [46, 47],
+      [9, 48],
+      [48, 49],
+      [48, 50],
+      [50, 51],
+      [48, 52],
+      [4, 53],
+      [53, 54],
+      [54, 55],
+      [55, 56],
+      [56, 57],
+      [56, 58],
+      [53, 59],
+      [49, 60],
+      [60, 61],
+      [4, 62],
+      [62, 63],
+      [63, 64]
+    ]
+  }
